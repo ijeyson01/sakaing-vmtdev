@@ -1,8 +1,8 @@
-<h2 class="m-0">Cat&aacute;logo de productos</h2>
+<h2 class="m-0">Cat&aacute;logo de categor&iacute;as</h2>
 <p-toolbar styleClass="mb-6">
     <ng-template #start>
-        <p-button label="Nuevo producto" icon="pi pi-plus" severity="secondary" class="mr-2" />
-        <p-button severity="secondary" label="Eliminar seleccionados" icon="pi pi-trash" outlined  />
+        <p-button label="Nueva categoría" icon="pi pi-plus" severity="secondary" class="mr-2" />
+        <p-button severity="secondary" label="Eliminar seleccionadas" icon="pi pi-trash" outlined  />
     </ng-template>
 
     <ng-template #end>
@@ -26,7 +26,7 @@
         >
             <ng-template #caption>
                 <div class="flex items-center justify-between">
-                    <h5 class="m-0">Manage Products</h5>
+                    <h5 class="m-0">Lista de categor&iacute;as</h5>
                     <p-iconfield>
                         <p-inputicon styleClass="pi pi-search" />
                         <input pInputText type="text"  placeholder="Search..." />
@@ -40,16 +40,8 @@
                     </th>
                     <th pSortableColumn="name" style="min-width: 16rem">Nombre <p-sortIcon field="name" /></th>
                     <th pSortableColumn="description" style="min-width:16rem">
-                        Descripción
+                        Descripci&oacute;n
                         <p-sortIcon field="description" />
-                    </th>
-                    <th pSortableColumn="price" style="min-width: 8rem">
-                        Precio
-                        <p-sortIcon field="price" />
-                    </th>
-                    <th pSortableColumn="category" style="min-width:10rem">
-                        Category
-                        <p-sortIcon field="category" />
                     </th>
                     <th style="min-width: 12rem"></th>
                 </tr>
