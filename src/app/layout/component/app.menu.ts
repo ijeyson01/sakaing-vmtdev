@@ -26,7 +26,8 @@ export class AppMenu {
                     { label: 'Input', icon: 'pi pi-fw pi-check-square', routerLink: ['/uikit/input'] },
                     { label: 'Table', icon: 'pi pi-fw pi-table', routerLink: ['/uikit/table'] },
                     { label: 'Button', icon: 'pi pi-fw pi-mobile', class: 'rotated-icon', routerLink: ['/uikit/button'] },
-                    { label: 'Product', icon: 'pi pi-fw pi-box', routerLink: ['business/products'] }
+                    { label: 'Product', icon: 'pi pi-fw pi-box', routerLink: ['business/products'] },
+                    { label: 'Category', icon: 'pi pi-fw pi-box', routerLink: ['business/category'] }
                     // { label: 'List', icon: 'pi pi-fw pi-list', routerLink: ['/uikit/list'] },
                     // { label: 'Tree', icon: 'pi pi-fw pi-share-alt', routerLink: ['/uikit/tree'] },
                     // { label: 'Panel', icon: 'pi pi-fw pi-tablet', routerLink: ['/uikit/panel'] },
